@@ -1,42 +1,7 @@
 
 jQuery(document).ready(function() {
 	
-    /*
-	    Top menu
-	*/
-	$('.show-menu a, .hide-menu a').tooltip();
-	// show/hide menu
-	$('.show-menu a').on('click', function(e) {
-		e.preventDefault();
-		$(this).fadeOut(100, function(){ $('nav').slideDown(); });
-	});
-	$('.hide-menu a').on('click', function(e) {
-		e.preventDefault();
-		$('nav').slideUp(function(){ $('.show-menu a').fadeIn(); });
-	});
-	// navigation
-	$('nav a').on('click', function(e) {
-		e.preventDefault();
-		var element_class = $(this).attr('class');
-		var scroll_to = 0;
-		var nav_height = $('nav').height();
-		if(element_class == 'menu-top') { scroll_to = $(".coming-soon").offset().top; }
-		else if(element_class == 'menu-subscribe') { scroll_to = $(".subscribe").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-project') { scroll_to = $(".about").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-whos-comming') { scroll_to = $(".whos-comming").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-planning') { scroll_to = $(".planning").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-about-us') { scroll_to = $(".whos-behind").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-camiseta') { scroll_to = $(".faq").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-patrocinadores') { scroll_to = $(".patrocinadores").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-mapa') { scroll_to = $(".map").offset().top - nav_height /*- 60*/; }
-		else if(element_class == 'menu-organizacion') { scroll_to = $(".organizadores").offset().top - nav_height - 60; }
-        else if(element_class == 'menu-registro') { scroll_to = $(".registro-container").offset().top - nav_height - 60; }
-		
-		if($(window).scrollTop() != scroll_to && element_class !== undefined) {
-			$('html, body').animate({scrollTop: scroll_to}, 1000);
-		}
-	});
-	
+
     /*
         Background slideshow
     */
@@ -187,4 +152,36 @@ jQuery(document).ready(function() {
 
     
 });
+
+
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+const barsMenu = document.querySelector(".bars");
+
+barsMenu.addEventListener("click", function() {
+	const x = document.getElementById("topnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+});
+
+// Detecta el evento de desplazamiento (scroll)
+window.addEventListener('scroll', function() {
+    const menu = document.querySelector(".topnav");
+    
+    // Si el usuario ha hecho scroll más de 100px
+    if (window.scrollY > 100) {
+		menu.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // Cambia la transparencia
+    } else {
+		menu.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    }
+});
+
+
+
+
+
 

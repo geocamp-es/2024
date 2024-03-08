@@ -33,26 +33,21 @@
 
 <body>
   <!-- Menu -->
-  <nav>
-    <a class="menu-top" href="">Arriba</a>
-    <a class="menu-subscribe" href="">¿Qué es?</a>
-    <a class="menu-project" href="">Localización</a>
-    <a class="menu-camiseta" href="">¿Cómo funciona un Open Space?</a>
-    <a class="menu-whos-comming" href="">¿Quién vendrá este año?</a>
-    <a class="menu-patrocinadores" href="">Patrocinadores</a>
-    <a class="menu-planning" href="">Planificación</a>
-    <a class="menu-mapa" href="">Dónde estaremos</a>
-    <a class="menu-organizacion" href="">Organización</a>
-    <a class="menu-top" href="">Registro</a>
-    <div class="hide-menu">
-      <a href="" rel="tooltip" data-placement="bottom" data-original-title="Hide menu">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div>
-  </nav>
-  <div class="show-menu">
-    <a href="" rel="tooltip" data-placement="bottom" data-original-title="Show menu"><i class="fa fa-bars"></i></a>
+  <div class="topnav" id="topnav">
+    <a href="#geoCamp">GeoCamp</a>
+    <a href="#localizacion">Localización</a>
+    <a href="#openspace">OpenSpace FAQ</a>
+    <a href="#whoscomming">¿Quién vendrá este año?</a>
+    <a href="#patrocinadores">Patrocinadores</a>
+    <a href="#planning">Planificación</a>
+    <a href="#mapa">Dónde estaremos</a>
+    <a href="#organizacion">Organización</a>
+    <a href="#registro">Registro</a>
+    <a href="#" class="icon bars">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
+
   <!-- Portada -->
   <div class="coming-soon">
     <div class="overlay"></div>
@@ -67,7 +62,7 @@
             <h3>30 de Septiembre - Illa de San Simón</h3>
             <p> ¡Un día para hablar de GIS! </p>
             <div class="row">
-              <div class="span12 whos-behind">
+              <div class="span12 whos-behind" id="registro">
                 <h3>¡Regístrate!</h3>
                 <p> Acercate a conocer a grandes profesionales del entorno GEO (y no GEO). </p>
                 <br>
@@ -91,7 +86,7 @@
     </div>
   </div>
   <!-- Qué es -->
-  <div class="container">
+  <div class="container" id="geoCamp">
     <div class="row">
       <div class="span12 subscribe">
         <h3>¿Qué es GeoCamp ES?</h3>
@@ -131,7 +126,7 @@
     </div>
   </div>
   <!-- Localización -->
-  <div class="about-container">
+  <div class="about-container" id="localizacion">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -200,7 +195,7 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="span12 whos-behind faq">
+          <div class="span12 whos-behind faq" id="openspace">
               <p>
                   <h3>
                     ¿Qué es el OpenSpace?
@@ -278,7 +273,7 @@
           <div class="whos-behind-container" style="position: relative; z-index: 0; background: none;">
             <div class="container">
               <div class="row">
-                <div class="span12 whos-comming">
+                <div class="span12 whos-comming" id="whoscomming">
                   <h3>¿Quién vendrá este año?</h3>
                 </div>
                 <div class="whos-behind-box-1">
@@ -317,7 +312,7 @@
             </div>
         </div>
   <!-- Planificación -->
-  <div class="planning-container">
+  <div class="planning-container" id="planning">
     <div class="container">
       <div class="row">
         <div class="span12 planning">
@@ -361,7 +356,7 @@
   <div class="patrocinadores-container">
     <div class="container">
       <div class="row">
-        <div class="span12 whos-behind patrocinadores">
+        <div class="span12 whos-behind patrocinadores" id="patrocinadores">
           <h3>Patrocinan</h3>
           <p> GeoCamp ES es posible gracias al esfuerzo de las entidades que nos patrocinan. Si estás interesada en ser una de ellas puedes
             descargar nuestra <a href="assets/documents/geocampES_sponsor_pack.pdf" target="_blank">guía para patrocinar</a>.
@@ -390,7 +385,7 @@
   </div>
 
   <!-- Mapa -->
-  <div class="mapa-container">
+  <div class="mapa-container" id="mapa">
     <div class="row-fluid">
       <div class="span12 contact-address map" style="margin-top: 0px;">
         <iframe width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" 
@@ -399,10 +394,10 @@
     </div>
   </div>
   <!-- Organización -->
-  <div class="organizadores-container ">
-    <div class="container">
+  <div class="organizadores-container " >
+    <div class="container" >
       <div class="row">
-        <div class="span12 whos-behind organizadores">
+        <div class="span12 whos-behind organizadores"   id="organizacion">
           <h3>Organización</h3>
           <p> </p>
         </div>
