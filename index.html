@@ -3,7 +3,7 @@
 
 <head>
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>GeoCamp ES - 30 Setiembre de 2023 - Illa de San Simón</title>
+  <title>GeoCamp ES - 19 de Octubre - Pamplona</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -32,6 +32,16 @@
 </head>
 
 <body>
+  <!-- Modales -->
+  <!-- para registro -->
+  <div id="modal-registro" class="modal">
+    <div class="modal-contenido">
+      <a class="btn_cerrar" href="#">X</a>
+      <h4>Registro</h4>
+      <p>Próximamente os facilitaremos el enlace de registro.</p>
+    </div>
+  </div>
+
   <!-- Menu -->
   <div class="topnav" id="topnav">
     <a href="#geoCamp">GeoCamp</a>
@@ -48,6 +58,8 @@
     </a>
   </div>
 
+
+
   <!-- boton scroll arriba -->
   <button class="scrollToTopBtn"><i class="fa fa-chevron-up"></i></button>
 
@@ -58,22 +70,19 @@
       <div class="container">
         <div class="row">
           <div class="span12">
-            <div class="logo">
-              <h1><a href="">GeoCamp - ES</a></h1>
-            </div>
-            <!-- <h2>GeoCamp ES</h2> -->
+            <div class="logo"> </div>
+
             <h3>19 de Octubre - Pamplona</h3>
             <p> ¡Un día para hablar de GIS! </p>
-            <div class="row">
-              <div class="span12 whos-behind" id="registro">
-                <h3>¡Regístrate!</h3>
-                <p> Acercate a conocer a grandes profesionales del entorno GEO (y no GEO). </p>
-                <br>
-                <a href="https://www.eventbrite.com/e/entradas-geocamp-2023-680843761017?aff=oddtdtcreator" class="button button--primary text--bold" target="_blank">
-                  <span>Registrarse</span>
-                </a>
-              </div>
-            </div>
+            <!-- <a href="https://www.eventbrite.com/e/entradas-geocamp-2023-680843761017?aff=oddtdtcreator" class="button button--primary text--bold">¡Regístrate!</a> -->
+            <a href="#modal-registro" class="button button--primary text--bold">¡Regístrate!</a>
+            <!-- <a href="https://www.eventbrite.com/e/entradas-geocamp-2023-680843761017?aff=oddtdtcreator" class="button button--primary text--bold">¡Regístrate!</a> -->
+            <p> Acercate a conocer a grandes profesionales del entorno GEO (y no GEO). </p>
+
+
+
+
+
             <div class="timer">
               <div class="days-wrapper"> <span class="days"></span> <br> días </div>
               <div class="hours-wrapper"> <span class="hours"></span> <br> horas </div>
@@ -93,108 +102,53 @@
     <div class="row">
       <div class="span12 subscribe">
         <h3>¿Qué es GeoCamp ES?</h3>
-        <p>GeoCamp ES es un congreso nacional del colectivo internacional <a href="http://geoinquietos.org/">Geoinquietos.</a></p>
+        <p>GeoCamp ES es un congreso nacional del colectivo internacional <a rel="noreferrer noopener" target="_blank" rel="noreferrer noopener" href="http://geoinquietos.org/">Geoinquietos.</a></p>
         <p>Geoinquietos son grupos informales que se reúnen para conversar y aprender sobre cualquier tema relacionado con las
           ciencias de la tierra. No hay (todavía) una estructura formal por lo que cada grupo se organiza a su manera, aunque
           hay ciertas características comunes como son disponer de un foro de discusión, generalmente una lista de correo,
-          y una cuenta en twitter. Puedes consultar más información en esta <a href="https://geoinquietosmadrid.github.io/geoinquietos-y-osgeoes/#/">introducción a Geoinquietos</a>.</p>
+          y una cuenta en twitter. Puedes consultar más información en esta <a rel="noreferrer noopener" target="_blank" rel="noreferrer noopener" href="https://geoinquietosmadrid.github.io/geoinquietos-y-osgeoes/#/">introducción a Geoinquietos</a>.</p>
         <p>La comunidad Geoinquietos siente especial afinidad por la enorme panoplia de servicios de geodatos abiertos disponibles
-          en Internet como los servicios <a href="https://en.wikipedia.org/wiki/Infrastructure_for_Spatial_Information_in_the_European_Community">INSPIRE</a>,
-          proyectos comunitarios como <a href="https://www.openstreetmap.org">OpenStreetMap</a> y la enorme oferta de software
+          en Internet como los servicios <a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Infrastructure_for_Spatial_Information_in_the_European_Community">INSPIRE</a>,
+          proyectos comunitarios como <a target="_blank" rel="noreferrer noopener" href="https://www.openstreetmap.org">OpenStreetMap</a> y la enorme oferta de software
           libre de calidad profesional usada mundialmente en toda clase de servicios y aplicaciones SIG, especialmente alrededor
-          de la comunidad <a href="https://osgeo.org">OSGeo</a>. Pero también está abierta a profesionales de geomática que
+          de la comunidad <a target="_blank" rel="noreferrer noopener" href="https://osgeo.org">OSGeo</a>. Pero también está abierta a profesionales de geomática que
           trabajan con software propietario pero gustan de compartir conocimientos y aprender en grupo.</a>
         <p>Este congreso es sin ánimo de lucro, de asistencia gratuita y autofinanciado.</p>
-        <p>Este año, el formato de GeoCamp es el de <a href="https://es.wikipedia.org/wiki/Desconferencia">Open Space</a>: todos
+        <p>Este año, el formato de GeoCamp es el de <a target="_blank" rel="noreferrer noopener" href="https://es.wikipedia.org/wiki/Desconferencia">Open Space</a>: todos
           los participantes toman un papel activo en la ejecución del evento para aumentar la interacción entre los asistentes
           de tú a tú (en lugar del modelo tradicional de conferencia de comunicación de uno a muchos) para ser capaces,
           con agilidad e improvisación, de satisfacer espontáneamente las inquietudes de los participantes, tanto las que
           traigan de casa como las que surjan durante la jornada.</p>
-        <p> GeoCamp ES nació en 2013 como el resultado de la participación en <a title="GeoCamp 2012 - Campo Maior" href="https://www.flickr.com/photos/geocamp/" target="_blank">GeoCamp 2012</a> en Campo Maior, Portugal. </p>
+        <p> GeoCamp ES nació en 2013 como el resultado de la participación en <a title="GeoCamp 2012 - Campo Maior" target="_blank" rel="noreferrer noopener" href="https://www.flickr.com/photos/geocamp/" target="_blank">GeoCamp 2012</a> en Campo Maior, Portugal. </p>
         <p> Ediciones anteriores: <br />
-          <a title="GeoCampES 2013 - Vigo" href="http://2013.geocamp.es" target="_blank">Vigo 2013</a><br />
-          <a title="GeoCampES 2014 - A Coruña" href="http://2014.geocamp.es" target="_blank">A Coruña 2014</a><br />
-          <a title="GeoCampES 2015 - Sevilla" href="http://2015.geocamp.es" target="_blank">Sevilla 2015</a><br />
-          <a title="GeoCampES 2016 - Barcelona" href="http://2016.geocamp.es" target="_blank">Barcelona 2016</a><br />
-          <a title="GeoCampES 2017 - Almería" href="http://2017.geocamp.es" target="_blank">Almería 2017</a><br />
-          <a title="GeoCampES 2017 - Almería" href="http://2018.geocamp.es" target="_blank">Madrid 2018</a><br />
-          <a title="GeoCampES 2017 - Almería" href="http://2019.geocamp.es" target="_blank">Valencia 2019</a><br />
+          <a title="GeoCampES 2013 - Vigo" rel="noreferrer noopener" href="http://2013.geocamp.es" target="_blank">Vigo 2013</a><br />
+          <a title="GeoCampES 2014 - A Coruña" rel="noreferrer noopener" href="http://2014.geocamp.es" target="_blank">A Coruña 2014</a><br />
+          <a title="GeoCampES 2015 - Sevilla" rel="noreferrer noopener" href="http://2015.geocamp.es" target="_blank">Sevilla 2015</a><br />
+          <a title="GeoCampES 2016 - Barcelona" rel="noreferrer noopener" href="http://2016.geocamp.es" target="_blank">Barcelona 2016</a><br />
+          <a title="GeoCampES 2017 - Almería" rel="noreferrer noopener" href="http://2017.geocamp.es" target="_blank">Almería 2017</a><br />
+          <a title="GeoCampES 2018 - Madrid" rel="noreferrer noopener" href="http://2018.geocamp.es" target="_blank">Madrid 2018</a><br />
+          <a title="GeoCampES 2019 - Valencia" rel="noreferrer noopener" href="http://2019.geocamp.es" target="_blank">Valencia 2019</a><br />
+          <a title="GeoCampES 2023 - Vigo" rel="noreferrer noopener" href="http://2023.geocamp.es" target="_blank">Illa de San Simón 2023</a><br />
+          </a><br />
+          </a><br />
+
+
         </p>
-        <p> No te olvides que puedes seguirnos en Twitter (<a title="GeoCamp ES en Twitter" href="http://twitter.com/GeoCampES" target="_blank">@GeoCampES</a>) y hemos creado un <a href="https://t.me/joinchat/AGMxEkb2muPxA0_ynqReCQ">grupo Telegram</a> al que puedes apuntarte.
+        <p> No te olvides que puedes seguirnos en X (<a title="GeoCamp ES en Twitter" target="_blank" rel="noreferrer noopener" href="http://twitter.com/GeoCampES" target="_blank">@GeoCampES</a>) y hemos creado un <a target="_blank" rel="noreferrer noopener" href="https://t.me/joinchat/AGMxEkb2muPxA0_ynqReCQ">grupo Telegram</a> al que puedes apuntarte.
           Apúntate y comenta, participa, quéjate y ayúdanos a organizar el evento. </p>
-        <h3>¡Nos vemos en A Illa!</h3>
+        <h3>¡Nos vemos en Pamplona!</h3>
       </div>
     </div>
   </div>
-  <!-- Localización -->
-  <div class="about-container" id="localizacion">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="span12 about">
-          <h3>Localización</h3>
-          <p> </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="offset4 span4 about-box-1">
-          <a href="https://www.openstreetmap.org/node/2474335849" style="color:white;" target="_blank">
-            <div class="about-box-1-icon">
-              <i class="fa fa-map-marker"></i>
-            </div>
-            <h4>Illa de San Simón</h4>
-          </a>
-          <p> Ría de Vigo S/N </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Testimonios -->
-  <div class="container">
-    <div class="row">
-      <div class="span12 testimonials">
-        <h3>Lo que dijeron de la geocamp en las anteriores ediciones</h3>
-        <div class="testimonial-active"></div>
-        <div class="testimonial-quote"> “ ” </div>
 
-        <div class="testimonial-single">
-          <p> Fotaza de grupo, merced de @FuertesJG #GeoCampES <br /><a href="https://pbs.twimg.com/media/DJ3fDt3W4AAqEwC.jpg">https://pbs.twimg.com/media/DJ3fDt3W4AAqEwC.jpg</a><br>
-            <a href="https://twitter.com/geocampes/status/909127983931289608">@GeoCampES</a>
-          </p>
-          <div class="testimonial-single-image">
-            <img src="https://pbs.twimg.com/profile_images/759677421260050432/AxStJkpu_400x400.jpg" alt="">
-          </div>
-        </div>
 
-        <div class="testimonial-single">
-          <p> Nosotros este año no iremos a la ESRI UC, iremos a la geocampes!!</a><br>
-          </p>
-          <div class="testimonial-single-image">
-            <img src="assets/img/esriespana.jpeg" alt="">
-          </div>
-        </div>
-
-        <div class="testimonial-single">
-          <p> Enhorabuena a la organización del #geocampes. Valéis para volver a organizarlo :-) #MuchoNivel <br><a href="https://twitter.com/aitorfreire/statuses/348424375332122624">@aitorfreire</a></p>
-          <div class="testimonial-single-image">
-            <img src="https://pbs.twimg.com/profile_images/378800000040667457/eb3e5dda6cedb0f28609097433aafc6a_bigger.jpeg" alt="">
-          </div>
-        </div>
-
-        <div class="testimonial-single">
-          <p> Una p*** mierda, nada que ver con las JIIDE, ¡esas si que molan! <br><a href="https://twitter.com/trolpical">@Trolpical</a> </p>
-          <div class="testimonial-single-image">
-            <img src="https://pbs.twimg.com/profile_images/1690601343/trolpical_bigger.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- Instrucciones desconferencia -->
   <div class="camiseta-container">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
+
+
         <div class="span12 whos-behind faq" id="openspace">
           <p>
           <h3>
@@ -204,73 +158,79 @@
             En el OpenSpace la idea es que una persona proponga un tema sobre el que quiere conversar o que le interese, algo sobre lo que ha trabajado
             o tiene algo preparado y lo comparta con el resto de asistentes.
           </p>
-          <h3>
-            ¿Cómo funciona?
-          </h3>
-          <p>
-            Los interesados en el tema se reunirán en la sala habilitada y uno o varios de los que hayan propuesto el tema serán los moderadores de la sesión.
-            La idea es que fluya la conversación y los asistentes vayan navegando por el tema hacia los puntos que más interés generen.
-          </p>
-          <h3>
-            ¿Puedo proponer un tema?
-          </h3>
-          <p>
-            Si, por supuesto. No solo puedes, sino que debes proponer un tema. Usa el siguiente formulario y si hay más temas que espacios el día del evento,
-            una vez allí votaremos para ver cuales son los más interesantes.
-          </p>
-          <p class="propon-tema-container">
-            <span class="propon-tema">
-              <a href="https://forms.gle/JnxwLJQ7L32nmbQeA" target="_blank">
-                ¡¡Propón aquí tú tema!!
-              </a>
-            </span>
-          </p>
-          <h3>
-            ¿Dónde será el evento?
-          </h3>
-          <p>
-            Desde la primera edición de la GeoCampES, los xeoinquedos hemos estado enamorados de la <a href="https://www.cultura.gal/es/illadesansimon" target="_blank">Illa de San Simón</a>. Es un antiguo lazareto que también
-            se usó de prisión durante la Guerra Civil y que ahora ha sido reformada y puesta a disposición para la organización de eventos.
 
-            Este año queremos que la GeoCampES se haga allí. Para ello vamos a necesitar llegar a cubrir el presupuesto del coste de los traslados en barco,
-            pero seguro que con todos los patrocinadores seremos capaces de conseguirlo. <a href="assets/documents/geocampES_sponsor_pack.pdf" target="_blank">¡¡Ayudanos a conseguirlo!!</a>
-          </p>
-          <h3>
-            ¿Cómo puedo llegar?
-          </h3>
+          <section class="accordion">
+            <div class="tab">
+              <input type="checkbox" name="accordion-1" id="cb1"> <!-- checked -->
+              <label for="cb1" class="tab__label">¿Cómo funciona?</label>
+              <div class="tab__content">
+                <p>Los interesados en el tema se reunirán en la sala habilitada y uno o varios de los que hayan propuesto el tema serán los moderadores de la sesión. La idea es que fluya la conversación y los asistentes vayan navegando por el tema hacia los puntos que más interés generen.</p>
+              </div>
+            </div>
+            <!-- ¿Puedo proponer un tema?  -->
+            <div class="tab">
+              <input type="checkbox" name="accordion-1" id="cb2">
+              <label for="cb2" class="tab__label">¿Puedo proponer un tema? </label>
+              <div class="tab__content">
+                <p>Si, por supuesto. No solo puedes, sino que debes proponer un tema. Usa el siguiente formulario y si hay más temas que espacios el día del evento, una vez allí votaremos para ver cuales son los más interesantes. Meter aquí el botón</p>
+                <p class="propon-tema-container">
+                  <span class="propon-tema">
+                    <a href="https://forms.gle/yrDHvt2HguXN3gK69" target="_blank">
+                      ¡¡Propón aquí tú tema!!
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <!-- ¿Dónde será el evento? -->
+            <div class="tab">
+              <input type="checkbox" name="accordion-1" id="cb3">
+              <label for="cb3" class="tab__label">¿Dónde será el evento? </label>
+              <div class="tab__content">
+                <p> Este año, estamos encantados de anunciar que la GeoCampES se celebrará en la hermosa ciudad de <strong>Pamplona</strong>. Con su rica historia y su vibrante comunidad, Pamplona ofrece el escenario perfecto para nuestro evento.</p>
+
+                <p>Estamos entusiasmados por explorar todo lo que Pamplona tiene para ofrecer a los amantes de la geografía y la cartografía. Estamos seguros de que esta nueva ubicación nos brindará oportunidades únicas para aprender, colaborar y disfrutar juntos.</p>
+
+                <p>Para hacer posible esta emocionante aventura, necesitaremos el apoyo de todos nuestros seguidores y patrocinadores. Juntos, podemos garantizar el éxito de la GeoCampES en Pamplona. ¡Únete a nosotros y ayúdanos a hacer de este evento una experiencia inolvidable!</p>
+
+              </div>
+            </div>
+
+
+
+
+
+          </section>
+          <!-- ¿Cómo puedo llegar? -->
+
+          <h3>¿Cómo puedo llegar?</h3>
           <p>
-            Para llegar al evento deberás viajar a Vigo, la ciudad de las luces. Puedes hacerlo:
-            <br>
-            <br>
-            <b>Avión:</b> volando directamente a Vigo, <a href="https://www.aena.es/es/vigo.html" target="_blank">Peinador</a>, a <a href="https://www.aena.es/es/santiago-rosalia-de-castro.html" target="_blank">Santiago de Compostela</a> , y luego en tren hasta Vigo o a <a href="https://www.aeroportoporto.pt/es/opo/home" target="_blank">Porto</a> y luego en <a href="https://www.alsa.es/ruta/oporto-vigo" target="_blank">bus</a> hasta Vigo.
-            Ya sabes que los vuelos domésticos son desaprobados por Greta Thunberg y que la mejor opción para llegar a Vigo será en
-
-            <br>
-            <br>
-            <b>Tren:</b> a cualquiera de las 2 estaciones que tenemos en Vigo, Vigo Guixar o Vigo Urzaiz
-
-            <br>
-            <br>
-            <b>Cualquier otra manera:</b> blablacar, bus o la más recomendada, aprovechar y venir haciendo el <a href="https://www.caminodesantiago.gal/es/planifica/las-rutas/camino-portugues" target="_blank">Camino de Santiago Portugues</a>
-
-            <br>
-            <br>
-            Desde Vigo hasta la Illa de San Simón ya será cosa nuestra llevaros. Traed bañador por si acaso, son solo 20 metros nadando desde la Praia de Cesantes...
+            Pamplona dispone de diferentes medios de transporte. Es posible llegar en <a target="_blank" rel="noreferrer noopener nofollow" href="https://www.pamplona.es/turismo/como-llegar-y-como-moverte-en-la-ciudad/en-coche">coche</a>, en <a target="_blank" rel="noreferrer noopener nofollow" href="https://www.pamplona.es/turismo/como-llegar-y-como-moverte-en-la-ciudad/en-autobus">autobús</a>, en <a target="_blank" rel="noreferrer noopener nofollow" href="https://www.pamplona.es/turismo/como-llegar-y-como-moverte-en-la-ciudad/en-tren">tren</a> y en <a target="_blank" rel="noreferrer noopener nofollow" href="https://www.pamplona.es/turismo/como-llegar-y-como-moverte-en-la-ciudad/en-avion">avión</a>. Cuenta con una nueva estación de autobuses ubicada en el centro de la ciudad, en la calle Yanguas y Miranda. La estación de tren de Renfe se encuentra en el barrio de San Jorge, y cuenta con diferentes rutas que enlazan Pamplona con numerosas ciudades españolas. Y a seis kilómetros de la ciudad está ubicado el aeropuerto, en la localidad de Noáin.
           </p>
-          <h3>
-            ¿Dónde me puedo alojar?
-          </h3>
+          <p>Puedes ver información más detallada en la <a target="_blank" rel="noreferrer noopener nofollow" href="https://www.pamplona.es/turismo/como-llegar-y-como-moverte-en-la-ciudad">web del propio Ayuntamiento de Pamplona</a></p>
+
+          <br />
+          <!-- ¿Dónde me puedo alojar? -->
+          <h3>¿Dónde me puedo alojar?</h3>
           <p>
-            En Vigo tenéis cantidad de sitios para alojaros adaptados a diferentes presupuestos. De momento no tenemos acuerdo con ningún hotel, pero os iremos
-            informando de lo que vayamos consiguiendo.
+            El Sistema de Información Geográfica del Ayuntamiento de Pamplona, nos ofrece esta información.
           </p>
-          </p>
+          <iframe style="width:100%;height:450px;" src="https://sig.pamplona.es/#ZXh0fGJhc2V8bWFwYWJhc2V8bGF5ZXJzfHV8b2djL3dtc3xufElERU5fUG9sX011bmljaXBpb3xvfHZ8aHx1cnxmfHR8QXl1bnRhbWllbnRvK2RlK1BhbXBsb25hfGl8bGltaXRlfC8vaWRlbmEubmF2YXJyYS5lcy9vZ2Mvd21zfElERU5BOkRPVEFDSV9TeW1fQWxvalR1cnxJREVOQXxsY2F0LTEtMXxjdGx8aWR8bS1maW5mby0xLTF8bGF5ZXJ8bS1maW5mby0xLTEtMnxmZWF0dXJlc3xxdWVyeXxtLWZpbmZvLTEtMnxtLWZpbmZvLTEtMi0yfG0tZmluZm8tMS0zfG0tZmluZm8tMS0zLTJ8ZG1tLTF8ZG1tLTEtMV4xfDFeNjA5MjAzLjQ5OXw0NzQwMzQ3LjV8NjEzMDQzLjQ5OXw0NzQyMTU3LjVeJDB8QDEwfDExfDEyfDEzXXwxfDJ8M3xAJDR8NXw2fDd8OHxZfDl8LTF8QXwtMnxCfC01fEN8LTV8RHxFfEZ8R118JDR8SHw2fEl8OHxafDl8LTF8QXwtMnxCfC01fEN8LTV8RHxKfEZ8S11dfEx8QCRNfE58T3wkTXxQfFF8QF1dfFJ8LTVdfCRNfFN8T3wkTXxUfFF8QF1dfFJ8LTVdfCRNfFV8T3wkTXxWfFF8QF1dfFJ8LTVdfCRNfFd8T3wkTXxYfFF8QF1dXV1d"></iframe>
+
         </div>
+
+
+
+
+
       </div>
     </div>
   </div>
+
+
   <!-- whos behind -->
-  <div class="whos-behind-container" style="position: relative; z-index: 0; background: none;">
+  <!-- <div class="whos-behind-container" style="position: relative; z-index: 0; background: none;">
     <div class="container">
       <div class="row">
         <div class="span12 whos-comming" id="whoscomming">
@@ -278,39 +238,70 @@
         </div>
         <div class="whos-behind-box-1">
           <div class="whos-behind-photo">
-            <img src="assets/img/Carmen-Torrecillas-civio.jpg" alt="">
+            <img src="https://pbs.twimg.com/profile_images/1450554111829577731/AOSW9H2o_400x400.jpg" alt="">
             <div class="whos-behind-social">
-              <a href="https://twitter.com/carmen_TM_"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.linkedin.com/in/carmen-torrecillas/"><i class="fa fa-linkedin"></i></a>
-              <a href="https://observablehq.com/@carmen-tm"><i class="fa fa-envelope"></i></a>
-              <!--a href=""><i class="fa fa-facebook"></i></a-->
+              <a href="https://twitter.com/Srobinger"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/roberto-matellanes-ferreras/"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
             </div>
           </div>
-          <h4>Carmen Torrecillas</h4>
-          <h5>Visualización de datos y frontend en Civio</h5>
-          <p>
-            Arquitecta por la Escuela Técnica Superior de Arquitectura de la Universidad de Granada y programadora web a través del programa de desarrollo frontend de <a href="https://adalab.es/" target="_blank">Adalab</a>.
-            Carmen está a cargo del desarrollo frontend, las visualizaciones de datos y el diseño gráfico de los proyectos de <a href="https://civio.es/" target="_blank">Civio</a>, una organización sin ánimo de lucro que promueve la transparencia de las instituciones y el fácil acceso a la información pública mediante la tecnología y el periodismo. </p>
+          <h4>Roberto Matellanes</h4>
+          <h5>Copernicus dataviz</h5>
+          <div class="gb-block-layout-column-inner jma-single-perfil-columna-derecha">
+            <p>Licenciado en Ciencias Ambientales especializado en Tecnologías en la Gestión del Medio Ambiente. Creador y gestor de uno de los principales blogs de SIG en español: <a href="https://gisandbeers.com" target="_blank" rel="noreferrer noopener nofollow">GIS&amp;BEERS.</a>
+              Amante de los Sistemas de Información Geográfica y técnico en la elaboración de cartografía y bases de datos vinculadas con el medio ambiente. Aficionado y piloto de drones acreditado por la Agencia Estatal de Seguridad Aérea (AESA).</p>
+            <p>Actualmente trabaja en el desarrollo y gestión de cartografía de diversos ámbitos temáticos vinculados con el medio ambiente, la conservación e inventarios de especies y espacios naturales protegidos. Inmerso en el mundo del análisis con Big Data y Data Mining es formador en Sistemas de Información Geográfica con Máster en Dirección y Desarrollo de Planes Formativos.</p>
+            <p>Creador y administrador del grupo de Facebook de temática SIG con mayor número de seguidores en todo el mundo: <a target="_blank" rel="noreferrer noopener nofollow" href="https://www.facebook.com/groups/MundoGIS">Tutoriales, herramientas y cursos SIG</a>.</p>
+          </div>
         </div>
         <div class="whos-behind-box-1">
           <div class="whos-behind-photo">
             <img src="assets/img/Octopuses-review.jpg" alt="">
             <div class="whos-behind-social">
-              <!--a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                      <a href=""><i class="fa fa-envelope"></i></a-->
             </div>
           </div>
           <h4>Tú</h4>
           <h5>Geoinquieto</h5>
           <p>
-            Nadie mejor que tú mismo para saber quién eres. Vendrás a la Geocamp, hablarás de GIS y disfrutarás de un día en la preciosa Illa de San Simón.
+            Nadie mejor que tú mismo para saber quién eres. Vendrás a la Geocamp, hablarás de GIS y disfrutarás de un día en XXXXXXXXX.
           </p>
         </div>
       </div>
     </div>
+  </div> -->
+
+  <!-- Patrocinadores -->
+  <div class="patrocinadores-container">
+
+    <h3 id="patrocinadores">Patrocinadores</h3>
+    <p> GeoCamp ES es posible gracias al esfuerzo de las entidades que nos patrocinan.
+      <br> Si estás interesada en ser una de ellas puedes
+      descargar nuestra <a href="assets/documents/geocampES_sponsor_pack.pdf" target="_blank">guía para patrocinar</a>.
+    </p>
+
+    <div class="row">
+
+
+      <div class="patrocinadores">
+        <!-- <a href="https://www.elastic.co" target="_blank"><img src="assets/img/patrocinadores/elastic-logo.svg"></a> 
+        <a href="https://qgis.es" target="_blank"><img src="assets/img/patrocinadores/qgis_es.svg"></a>
+        <a href="https://www.bgeo.es/es/" target="_blank"><img src="assets/img/patrocinadores/logo-bgeo.jpg"></a>
+        <a href="http://psig.es/" target="_blank"><img src="assets/img/patrocinadores/logo_PSIG.svg"></a>
+        <a href="https://solucionsgeografiques.info/es/" target="_blank"><img src="assets/img/patrocinadores/solucions_geographiques.png"></a>  -->
+        <a href="https://geoinnova.org/" target="_blank"><img src="assets/img/patrocinadores/geoinnova.jpg"></a>
+        <!-- <a href="http://icarto.es/" target="_blank"><img src="assets/img/patrocinadores/icarto.png"></a>
+        <a href="http://www.unigis.es/" target="_blank"><img src="assets/img/patrocinadores/logo-Unigis.png"></a>
+        <a href="http://www.geomatico.es/" target="_blank"><img src="assets/img/patrocinadores/logo_vertical_color_png300pp.png"></a>
+        <a href="https://www.conterra.es" target="_blank"><img src="assets/img/patrocinadores/conterra.png"></a>
+        <a href="https://osgeo.org" target="_blank"><img src="assets/img/patrocinadores/osgeo-logo-rgb.png"></a>
+        <a href="https://www.gestionforestal.es/" target="_blank"><img src="assets/img/patrocinadores/logo-asefor.png"></a>
+        <a href="https://abtemas.es/que-hacemos/" target="_blank"><img src="assets/img/patrocinadores/logo-abtemas.png"></a>
+        <a href="https://mancomun.gal" target="_blank"><img src="assets/img/patrocinadores/logo-xunta.png"></a> -->
+      </div>
+
+    </div>
   </div>
+
   <!-- Planificación -->
   <div class="planning-container" id="planning">
     <div class="container">
@@ -352,46 +343,44 @@
 
     </div>
   </div>
-  <!-- Patrocinadores -->
-  <div class="patrocinadores-container">
+
+
+
+  <!-- Localización -->
+  <!-- <div class="about-container" id="localizacion">
+    <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="span12 whos-behind patrocinadores" id="patrocinadores">
-          <h3>Patrocinan</h3>
-          <p> GeoCamp ES es posible gracias al esfuerzo de las entidades que nos patrocinan. Si estás interesada en ser una de ellas puedes
-            descargar nuestra <a href="assets/documents/geocampES_sponsor_pack.pdf" target="_blank">guía para patrocinar</a>.
-          </p>
+        <div class="span12 about">
+          <h3>Localización</h3>
+          <p> </p>
         </div>
       </div>
-      <div class="row logos-patrocinadores"><br>
-        <div class="span10 offset1" style="">
-          <a href="https://www.elastic.co" target="_blank"><img width="300px" src="assets/img/patrocinadores/elastic-logo.svg"></a>
-          <a href="https://qgis.es" target="_blank"><img width="250px" src="assets/img/patrocinadores/qgis_es.svg"></a>
-          <a href="https://www.bgeo.es/es/" target="_blank"><img width="250px" src="assets/img/patrocinadores/logo-bgeo.jpg"></a>
-          <a href="http://psig.es/" target="_blank"><img width="350px" src="assets/img/patrocinadores/logo_PSIG.svg"></a>
-          <a href="https://solucionsgeografiques.info/es/" target="_blank"><img width="150px" src="assets/img/patrocinadores/solucions_geographiques.png"></a>
-          <a href="https://geoinnova.org/" target="_blank"><img width="300px" src="assets/img/patrocinadores/geoinnova.jpg"></a>
-          <a href="http://icarto.es/" target="_blank"><img width="350px" src="assets/img/patrocinadores/icarto.png"></a>
-          <a href="http://www.unigis.es/" target="_blank"><img width="350px" src="assets/img/patrocinadores/logo-Unigis.png"></a>
-          <a href="http://www.geomatico.es/" target="_blank"><img width="200px" src="assets/img/patrocinadores/logo_vertical_color_png300pp.png"></a>
-          <a href="https://www.conterra.es" target="_blank"><img width="280px" src="assets/img/patrocinadores/conterra.png"></a>
-          <a href="https://osgeo.org" target="_blank"><img width="300px" src="assets/img/patrocinadores/osgeo-logo-rgb.png"></a>
-          <a href="https://www.gestionforestal.es/" target="_blank"><img width="300px" src="assets/img/patrocinadores/logo-asefor.png"></a>
-          <a href="https://abtemas.es/que-hacemos/" target="_blank"><img width="300px" src="assets/img/patrocinadores/logo-abtemas.png"></a>
-          <a href="https://mancomun.gal" target="_blank"><img width="300px" src="assets/img/patrocinadores/logo-xunta.png"></a>
+      <div class="row">
+        <div class="offset4 span4 about-box-1">
+          <a href="https://www.openstreetmap.org/node/2474335849" style="color:white;" rel="noreferrer noopener" target="_blank">
+            <div class="about-box-1-icon">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <h4>Pamplona</h4>
+          </a>
+          <p>XXXXXX S/N </p>
         </div>
       </div>
     </div>
-  </div>
-
+  </div> -->
   <!-- Mapa -->
-  <div class="mapa-container" id="mapa">
+  <!-- <div class="mapa-container" id="mapa">
     <div class="row-fluid">
       <div class="span12 contact-address map" style="margin-top: 0px;">
-        <iframe width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" src="https://api.maptiler.com/maps/992b4731-d1b3-449a-b79b-5dc7938a63e6/?key=LqOKqjXlNHCUvaHo6msW#15.1/42.30751/-8.6288"></iframe>
+        <iframe width="100%" frameborder="0" marginheight="0" marginwidth="0" height="400" src="https://api.maptiler.com/maps/d1bd2d69-d728-4a2a-82c0-3532327f2c0c/?key=Fqf1baY5UvNayMnK976n#8.7/42.76458/-1.66812"></iframe>
       </div>
     </div>
-  </div>
+  </div> -->
+
+
+
+
   <!-- Organización -->
   <div class="organizadores-container ">
     <div class="container">
@@ -404,11 +393,11 @@
       <div class="row">
         <div class="whos-behind-box-1">
           <div class="whos-behind-photo">
-            <img src="assets/img/organizacion/logo_xeoInquedos.png" alt="Xeoinquedos" href="https://geoinquietos.org/grupos/galicia/">
+            <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/osgeoes"><img src="assets/img/organizacion/logo-osgeoes.png" title="OSGeo-ES" alt="OSGeo-ES"></a>
 
           </div>
           <div class="whos-behind-photo">
-            <img src="assets/img/organizacion/logo-ghandalf.png" alt="Asociación Ghandalf" href="https://ghandalf.org">
+            <a target="_blank" rel="noreferrer noopener" href="https://geoinnova.org/"><img src="assets/img/organizacion/logo-asociacion-geoinnova.jpg" title="Asociación Geoinnova" alt="Asociación Geoinnova"></a>
           </div>
           <br>
         </div>
@@ -418,21 +407,20 @@
 
 
 
-
   <!-- Footer -->
-  <footer class="footer">
+  <footer>
     <div class="container">
       <div class="row">
         <div class="span7 footer-copyright">
           <p>
-            Geocamp ES - 2023
+            Geocamp ES - 2024
             <br>
           </p>
         </div>
         <div class="span5 footer-social">
-          <a class="ultm ultm-twitter ultm-48 ultm-square" href="http://twitter.com/GeoCampES" target="_blank"></a>
-          <!-- <a class="ultm ultm-dribbble ultm-48 ultm-square ultm-gray-to-color" href="http://geocamp.es" target="_blank"></a>
-          <a class="ultm ultm-tumblr ultm-48 ultm-square ultm-gray-to-color" href="http://blog.geocamp.es" target="_blank"></a> -->
+          <a class="ultm ultm-instagram ultm-48 ultm-square ultm-gray-to-color" href="#" target="_blank" rel="noreferrer noopener"></a>
+          <a class="ultm ultm-twitter ultm-48 ultm-square ultm-gray-to-color" href="http://twitter.com/geocampes" target="_blank" rel="noreferrer noopener"></a>
+          <a class="ultm ultm-dribbble ultm-48 ultm-square ultm-gray-to-color" href="http://geocamp.es"></a>
         </div>
       </div>
     </div>
