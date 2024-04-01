@@ -1,12 +1,12 @@
 
 /* Devices with normal screens */
-.ultm-48.ultm-twitter { background-image: url(../ultm-bg-images/20x20/twitter.png); }
+.ultm-48.ultm-twitter { background-image: url(../ultm-bg-images/20x20/x.png); }
 .ultm-48.ultm-rss { background-image: url(../ultm-bg-images/20x20/rss.png); }
 .ultm-48.ultm-facebook { background-image: url(../ultm-bg-images/20x20/facebook.png); }
 .ultm-48.ultm-dribbble { background-image: url(../ultm-bg-images/20x20/dribbble.png); }
 .ultm-48.ultm-vimeo { background-image: url(../ultm-bg-images/20x20/vimeo.png); }
 .ultm-48.ultm-pinterest { background-image: url(../ultm-bg-images/20x20/pinterest.png); }
-.ultm-48.ultm-instagram-1 { background-image: url(../ultm-bg-images/20x20/instagram-1.png); }
+.ultm-48.ultm-instagram { background-image: url(../ultm-bg-images/20x20/instagram.png); }
 .ultm-48.ultm-linkedin { background-image: url(../ultm-bg-images/20x20/linkedin.png); }
 .ultm-48.ultm-youtube-1 { background-image: url(../ultm-bg-images/20x20/youtube-1.png); }
 .ultm-48.ultm-skype { background-image: url(../ultm-bg-images/20x20/skype.png); }
@@ -35,13 +35,13 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 	.ultm-48 { background-size: 20px 20px; }
 
-	.ultm-48.ultm-twitter { background-image: url(../ultm-bg-images/40x40/twitter.png); }
+	.ultm-48.ultm-twitter { background-image: url(../ultm-bg-images/40x40/x.png); }
 	.ultm-48.ultm-rss { background-image: url(../ultm-bg-images/40x40/rss.png); }
 	.ultm-48.ultm-facebook { background-image: url(../ultm-bg-images/40x40/facebook.png); }
 	.ultm-48.ultm-dribbble { background-image: url(../ultm-bg-images/40x40/dribbble.png); }
 	.ultm-48.ultm-vimeo { background-image: url(../ultm-bg-images/40x40/vimeo.png); }
 	.ultm-48.ultm-pinterest { background-image: url(../ultm-bg-images/40x40/pinterest.png); }
-	.ultm-48.ultm-instagram-1 { background-image: url(../ultm-bg-images/40x40/instagram-1.png); }
+	.ultm-48.ultm-instagram { background-image: url(../ultm-bg-images/40x40/instagram.png); }
 	.ultm-48.ultm-linkedin { background-image: url(../ultm-bg-images/40x40/linkedin.png); }
 	.ultm-48.ultm-youtube-1 { background-image: url(../ultm-bg-images/40x40/youtube-1.png); }
 	.ultm-48.ultm-skype { background-image: url(../ultm-bg-images/40x40/skype.png); }

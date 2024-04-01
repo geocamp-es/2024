@@ -14,6 +14,10 @@ jQuery(document).ready(function () {
 	$('.registro-container').backstretch("assets/img/backgrounds/3.jpg");
 
 	$('.planning-container').backstretch("assets/img/backgrounds/7.jpg");
+	
+	$('.whos-behind-container').backstretch("assets/img/backgrounds/10.jpg");
+
+	
 
 	/*
 		Countdown initializer
@@ -215,7 +219,7 @@ window.addEventListener('scroll', function () {
 
 	// Si el usuario ha hecho scroll más de 100px
 	if (window.scrollY > 100) {
-		menu.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // Cambia la transparencia
+		menu.style.backgroundColor = 'rgba(0, 0, 0, 0.6)'; // Cambia la transparencia
 	} else {
 		menu.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
 	}
