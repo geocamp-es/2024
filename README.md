@@ -1,4 +1,4 @@
-2023-geocamp
+2024-geocamp
 ============
 
 # Web del GeoCamp 2024 en Pamplona
