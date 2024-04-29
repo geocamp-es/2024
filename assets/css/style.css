@@ -1121,7 +1121,8 @@ footer {
 
 /* patrocinadores */
 .patrocinadores-container {
-    max-width: 1400px;
+    /* max-width: 1400px; - cambiar según columnas patrocinadores */
+    max-width: 800px;
     /* Limita el ancho del contenedor a 1000px */
     margin:  auto;
     /* Centra el contenedor horizontalmente */
@@ -1130,7 +1131,7 @@ footer {
 .patrocinadores {
     display: grid;
     /* grid-template-columns: repeat(5, 1fr);  - Cambiar según columnas a dividir*/
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* Cuatro columnas */
     gap: 40px;
     /* Espacio entre imágenes */
