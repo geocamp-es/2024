@@ -1120,7 +1120,7 @@ footer {
 
 
 /* patrocinadores */
-.patrocinadores-container {
+.patrocinadores-container, .colaboradores-container {
     /* max-width: 1400px; - cambiar según columnas patrocinadores */
     max-width: 800px;
     /* Limita el ancho del contenedor a 1000px */
@@ -1131,7 +1131,7 @@ footer {
 .patrocinadores {
     display: grid;
     /* grid-template-columns: repeat(5, 1fr);  - Cambiar según columnas a dividir*/
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* Cuatro columnas */
     gap: 40px;
     /* Espacio entre imágenes */
@@ -1142,12 +1142,22 @@ footer {
 
 }
 
-.patrocinadores a {
+.colaboradores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+
+.patrocinadores a, .colaboradores a{
     display: block;
     text-align: center;
 }
 
-.patrocinadores img {
+.patrocinadores img, .colaboradores img{
     width: 100%;
     height: 90px;
     /* Altura deseada */
@@ -1155,13 +1165,13 @@ footer {
     /* Ajusta la imagen manteniendo su proporción */
 }
 
-.patrocinadores-container h3 {
+.patrocinadores-container h3, .colaboradores-container h3 {
     text-align: center;
     padding-top: 50px;
     font-family: var(--font-family);
 }
 
-.patrocinadores-container p {
+.patrocinadores-container p, .colaboradores-container p {
     text-align: center;
     margin-bottom: 20px;
     /* Espacio entre el título y la descripción */
