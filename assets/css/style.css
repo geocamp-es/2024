@@ -1131,7 +1131,7 @@ footer {
 .patrocinadores {
     display: grid;
     /* grid-template-columns: repeat(5, 1fr);  - Cambiar según columnas a dividir*/
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* Cuatro columnas */
     gap: 40px;
     /* Espacio entre imágenes */
