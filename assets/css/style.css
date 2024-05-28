@@ -1122,25 +1122,72 @@ footer {
 /* patrocinadores */
 .patrocinadores-container, .colaboradores-container {
     /* max-width: 1400px; - cambiar según columnas patrocinadores */
-    max-width: 800px;
+    max-width: 1200px;
     /* Limita el ancho del contenedor a 1000px */
     margin:  auto;
     /* Centra el contenedor horizontalmente */
 }
 
+/* .patrocinadores {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin: 10px;
+    justify-content: center;
+
+} */
+
+
 .patrocinadores {
     display: grid;
-    /* grid-template-columns: repeat(5, 1fr);  - Cambiar según columnas a dividir*/
     grid-template-columns: repeat(5, 1fr);
-    /* Cuatro columnas */
-    gap: 40px;
-    /* Espacio entre imágenes */
-    margin: 10px;
-    /* Margen alrededor del contenedor */
-    justify-content: center;
-    /* Centra las imágenes en la última fila */
-
+    grid-gap: 20px; /* Espacio entre las imágenes */
+    grid-auto-flow: row dense; /* Asegura que las filas se llenen antes de pasar a la siguiente columna */
+    justify-items: center; /* Centra los elementos horizontalmente en sus celdas */
+    align-items: center; /* Centra los elementos verticalmente en sus celdas */
+    padding: 0 50px;
+    margin: 0 auto !important;
 }
+  
+  /* Estilos base para pantallas grandes */
+  .patrocinadores > * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 1200px) {
+  .patrocinadores {
+      grid-template-columns: repeat(3, 1fr); /* Ajusta el número de columnas para pantallas medianas */
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 900px) {
+  .patrocinadores {
+      grid-template-columns: repeat(2, 1fr); /* Ajusta el número de columnas para pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para pantallas muy pequeñas (móviles) */
+  @media (max-width: 600px) {
+  .patrocinadores {
+      grid-template-columns: repeat(1, 1fr); /* Solo una columna para pantallas muy pequeñas */
+      gap: 20px;
+    }
+    .patrocinadores-container{
+      padding: 0 20px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
 
 .colaboradores {
     display: grid;
