@@ -577,7 +577,7 @@ a:focus {
 }
 
 /* filtro para google maps invierte colores */
-.googlemap{
+.googlemap {
     filter: invert(90%) hue-rotate(180deg);
 }
 
@@ -657,11 +657,25 @@ a:focus {
 .whos-behind-container a {
     color: rgb(236, 191, 55);
     font-weight: bold;
-  }
-  
-  .whos-behind-container a:hover {
+}
+
+.whos-behind-container a:hover {
     color: white;
-  }
+}
+
+.whos-behind-logo {
+    width: 500px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 550px) {
+    .whos-behind-logo {
+        width: 94%;
+    }
+
+}
+
+
 
 .whos-comming {
     margin-top: 60px;
@@ -889,9 +903,12 @@ button {
 }
 
 .organizadores-container .whos-behind-box-1 {
-    display: flex; /* Usa flexbox */
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex;
+    /* Usa flexbox */
+    justify-content: space-between;
+    /* Distribuye los elementos con espacio entre ellos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
 }
 
 
@@ -1120,11 +1137,12 @@ footer {
 
 
 /* patrocinadores */
-.patrocinadores-container, .colaboradores-container {
+.patrocinadores-container,
+.colaboradores-container {
     /* max-width: 1400px; - cambiar según columnas patrocinadores */
     max-width: 1200px;
     /* Limita el ancho del contenedor a 1000px */
-    margin:  auto;
+    margin: auto;
     /* Centra el contenedor horizontalmente */
 }
 
@@ -1141,45 +1159,53 @@ footer {
 .patrocinadores {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px; /* Espacio entre las imágenes */
-    grid-auto-flow: row dense; /* Asegura que las filas se llenen antes de pasar a la siguiente columna */
-    justify-items: center; /* Centra los elementos horizontalmente en sus celdas */
-    align-items: center; /* Centra los elementos verticalmente en sus celdas */
+    grid-gap: 20px;
+    /* Espacio entre las imágenes */
+    grid-auto-flow: row dense;
+    /* Asegura que las filas se llenen antes de pasar a la siguiente columna */
+    justify-items: center;
+    /* Centra los elementos horizontalmente en sus celdas */
+    align-items: center;
+    /* Centra los elementos verticalmente en sus celdas */
     padding: 0 50px;
     margin: 0 auto !important;
 }
-  
-  /* Estilos base para pantallas grandes */
-  .patrocinadores > * {
+
+/* Estilos base para pantallas grandes */
+.patrocinadores>* {
     box-sizing: border-box;
     text-align: center;
-  }
-  
-  /* Estilos para pantallas medianas */
-  @media (max-width: 1200px) {
-  .patrocinadores {
-      grid-template-columns: repeat(3, 1fr); /* Ajusta el número de columnas para pantallas medianas */
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 1200px) {
+    .patrocinadores {
+        grid-template-columns: repeat(3, 1fr);
+        /* Ajusta el número de columnas para pantallas medianas */
     }
-  }
-  
-  /* Estilos para pantallas pequeñas */
-  @media (max-width: 900px) {
-  .patrocinadores {
-      grid-template-columns: repeat(2, 1fr); /* Ajusta el número de columnas para pantallas pequeñas */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 900px) {
+    .patrocinadores {
+        grid-template-columns: repeat(2, 1fr);
+        /* Ajusta el número de columnas para pantallas pequeñas */
     }
-  }
-  
-  /* Estilos para pantallas muy pequeñas (móviles) */
-  @media (max-width: 600px) {
-  .patrocinadores {
-      grid-template-columns: repeat(1, 1fr); /* Solo una columna para pantallas muy pequeñas */
-      gap: 20px;
+}
+
+/* Estilos para pantallas muy pequeñas (móviles) */
+@media (max-width: 600px) {
+    .patrocinadores {
+        grid-template-columns: repeat(1, 1fr);
+        /* Solo una columna para pantallas muy pequeñas */
+        gap: 20px;
     }
-    .patrocinadores-container{
-      padding: 0 20px;
+
+    .patrocinadores-container {
+        padding: 0 20px;
     }
-  }
-  
+}
+
 
 
 
@@ -1199,12 +1225,14 @@ footer {
 
 }
 
-.patrocinadores a, .colaboradores a{
+.patrocinadores a,
+.colaboradores a {
     display: block;
     text-align: center;
 }
 
-.patrocinadores img, .colaboradores img{
+.patrocinadores img,
+.colaboradores img {
     width: 100%;
     height: 90px;
     /* Altura deseada */
@@ -1212,13 +1240,15 @@ footer {
     /* Ajusta la imagen manteniendo su proporción */
 }
 
-.patrocinadores-container h3, .colaboradores-container h3 {
+.patrocinadores-container h3,
+.colaboradores-container h3 {
     text-align: center;
     padding-top: 50px;
     font-family: var(--font-family);
 }
 
-.patrocinadores-container p, .colaboradores-container p {
+.patrocinadores-container p,
+.colaboradores-container p {
     text-align: center;
     margin-bottom: 20px;
     /* Espacio entre el título y la descripción */
@@ -1230,31 +1260,33 @@ footer {
 
 
 /* modal para registro y otros */
-.modal-contenido{
+.modal-contenido {
     background-color: var(--secondary);
     color: white;
-    width:400px;
+    width: 400px;
     margin: 15% auto;
     position: relative;
     border-radius: 5px;
     padding: 20px 30px;
     min-height: 200px;
-  }
-  .modal{
-    background-color: rgba(0,0,0,0);
+}
 
-    opacity:0;
-    pointer-events:none;
+.modal {
+    background-color: rgba(0, 0, 0, 0);
+
+    opacity: 0;
+    pointer-events: none;
     transition: all 1s;
     z-index: 9;
-  }
-  #modal-registro:target{
-    opacity:1;
-    pointer-events:auto;
-    
-  }
-  
-  .btn_cerrar{
+}
+
+#modal-registro:target {
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.btn_cerrar {
     text-decoration: none;
     background-color: var(--secondary);
     padding: 5px 8px;
@@ -1263,4 +1295,4 @@ footer {
     top: 15px;
     right: 15px;
     color: white;
-  }
+}
