@@ -94,6 +94,7 @@ a:focus {
     color: white;
     background: var(--theme);
     cursor: pointer;
+    line-height: 1.1em;
 }
 
 .accordion .tab__label {
@@ -815,7 +816,7 @@ a:focus {
 
 .planning p {
     margin-top: 30px;
-    padding: 0 120px;
+    padding: 0 15px;
     font-size: 22px;
     line-height: 36px;
 }
@@ -1201,7 +1202,7 @@ footer {
         gap: 20px;
     }
 
-    .patrocinadores-container {
+    .patrocinadores-container, .colaboradores-container {
         padding: 0 20px;
     }
 }
