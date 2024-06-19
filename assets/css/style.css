@@ -854,6 +854,10 @@ a:focus {
     color: #fff;
 }
 
+.button--primary:visited {
+    color: white;
+}
+
 button {
     color: inherit;
     text-decoration: none;
@@ -874,7 +878,8 @@ button {
     border: 4px solid var(--theme);
     border-radius: 4px;
     box-sizing: border-box;
-    color: var(--bg-primary) display: -webkit-inline-box;
+    color: var(--bg-primary);
+    display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     flex-direction: row;
