@@ -855,6 +855,7 @@ a:focus {
 }
 
 .button--primary:visited {
+    background: var(--theme);
     color: white;
 }
 
