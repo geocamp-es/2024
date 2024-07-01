@@ -909,6 +909,7 @@ button {
     /*  height: 500px;*/
 }
 
+
 .organizadores-container .whos-behind-box-1 {
     display: flex;
     /* Usa flexbox */
@@ -1302,4 +1303,49 @@ footer {
     top: 15px;
     right: 15px;
     color: white;
+}
+
+/* bloque sostenible */
+
+footer{
+    margin-top: 70px;
+  }
+
+.sostenible-container{
+    text-align: center;
+    background-color: #dcf6bd;
+    
+  }
+
+  .contenedor-sostenible {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.columna-sostenible {
+    flex: 1 1 45%;
+    min-width: 300px;
+    color: #3f4739;
+
+}
+.ancho-completo-sostenible {
+    flex: 1 1 100%;
+}
+
+h2 {
+    padding-top: 50px;
+    /* color: #3f4739; */
+    color:#349d28;
+    display: flex;
+    align-items: center;
+}
+svg {
+    width: 40px; /* Ajusta el tamaño del ícono aquí */
+    height: 40px; /* Ajusta el tamaño del ícono aquí */
+    margin-right: 8px; /* Espacio entre el ícono y el título */
+    fill: #349d28;
+
 }
