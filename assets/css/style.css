@@ -1479,8 +1479,7 @@ svg {
   
   .planning-container .schedule {
     list-style-type: none;
-    padding: 0;
-  width: 100%;
+    padding-right: 20px;
   }
   
   .planning-container .schedule li {
@@ -1513,4 +1512,22 @@ svg {
     color: white;
     padding: 2px 6px;
     border-radius: 3px;
+  }
+
+/* 
+  #sostenible, .ancho-completo-sostenible{
+    padding: auto 20px;
+  }
+  .ancho-completo-sostenible, #whoscomming, .whos-behind-box-1 h5{
+    padding: 20px;
+  } */
+
+
+  
+ 
+  #whoscomming, .whos-behind-box-1 h5{
+    padding: 20px;
+  }
+  .contenedor-sostenible{
+    padding: 20px
   }
