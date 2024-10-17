@@ -1168,19 +1168,12 @@ footer {
     padding: 40px; /* Espaciado interno */
     text-align: center; /* Centrar el contenido */
     color: white; /* Color del texto blanco */
-    width: 100%;
 }
 
 
 #sesiones p {
     margin-bottom: 20px; /* Espaciado inferior para el párrafo */
 }
-
-
-
-
-
-
 
 
 .sesiones-container {
