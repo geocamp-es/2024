@@ -1168,6 +1168,7 @@ footer {
     padding: 40px; /* Espaciado interno */
     text-align: center; /* Centrar el contenido */
     color: white; /* Color del texto blanco */
+    width: auto;
 }
 
 
