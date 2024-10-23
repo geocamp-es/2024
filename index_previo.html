@@ -61,14 +61,13 @@
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
   <style>
-    .botones-lista {
-      display: flex;
-      gap: 20px;
+    .botones-lista{
+      display:flex;gap:20px;
       justify-content: center;
     }
 
-    @media screen and (max-width:480px) {
-      .botones-lista {
+    @media screen and (max-width:480px){
+      .botones-lista{
         text-align: center;
         margin: 0 auto;
         justify-content: center;
@@ -120,9 +119,29 @@
         <div class="row">
           <div class="span12">
             <div class="logo"> </div>
-            <h3>19 de Octubre - Pamplona</h3>
-            <iframe width="650" height="366"" src="https://www.youtube.com/embed/-E7H34iZKd8?si=LjlNZwGfmj23vWXp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+            <h3>19 de Octubre - Pamplona</h3>
+            <p> ¡Un día para hablar de GIS! </p>
+            <a rel="noreferrer noopener" target="_blank"
+              href="https://www.eventbrite.es/e/entradas-geocampes-2024-927056239167"
+              class="button button--primary text--bold">¡Regístrate!</a>
+            <!-- <a href="#modal-registro" class="button button--primary text--bold">¡Regístrate!</a> -->
+
+            <p> Acercate a conocer a grandes profesionales del entorno GEO (y no GEO). </p>
+
+
+
+
+
+            <div class="timer">
+              <div class="days-wrapper"> <span class="days"></span> <br> días </div>
+              <div class="hours-wrapper"> <span class="hours"></span> <br> horas </div>
+              <div class="minutes-wrapper"> <span class="minutes"></span> <br> minutos </div>
+              <div class="seconds-wrapper"> <span class="seconds"></span> <br> segundos </div>
+            </div>
+            <!-- <p class="top-arrow">
+              <i class="fa fa-chevron-down"></i>
+            </p> -->
           </div>
         </div>
       </div>
@@ -134,14 +153,13 @@
   <div class="container" id="sesiones">
     <div class="container">
       <div class="row">
-        <h3>Retransmisiones</h3>
-        
+        <h3>Sesiones Programadas</h3>
+        <p>Para conocer más sobre las interesantes sesiones programadas durante el evento, haz clic en el siguiente botón.</p>
         <div class="botones-lista">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/q4Md0yyYeBo?si=AcDowkHTvb9cSSBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/XVTUZmyXZvE?si=1siUDbyTIqlpcsKa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+          <a href="sesiones.html" class="button button--primary text--bold">Ver Sesiones</a>
+          <a href="https://youtube.com/live/q4Md0yyYeBo?feature=share" target="_blank" class="button button--primary text--bold"> Ver Streaming</a>
         </div>
-
+       
       </div>
     </div>
   </div>
